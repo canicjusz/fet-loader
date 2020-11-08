@@ -14,4 +14,4 @@
 Distributed under the GPL-3.0 License. See [LICENSE](https://github.com/clangremlini/fet-loader/blob/master/LICENSE) for more information.
 
 ## Donate
-<iframe src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=Hello%2C%20it's%20me&targets-hint=&default-sum=&button-text=14&payment-type-choice=on&mobile-payment-type-choice=on&hint=&successURL=https%3A%2F%2Ffetloader.xyz%2Fsuccess&quickpay=shop&account=4100112259262413" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+<iframe src="https://widget.qiwi.com/widgets/big-widget-728x200?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPyX1GYdgPu9d9ogUt6k9YMUvmcaQAMx42fgrzpsjNhsKtKMBmfS6cGvMsWu55CH8ZKHgANd7YusUyQXG6p4YrgqmpUhmvnA3RqPp5tAEbz&noCache=true" width="728" height="200"allowTransparency="true" scrolling="no" frameBorder="0"></iframe>
