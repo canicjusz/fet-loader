@@ -1,5 +1,3 @@
-<h3 align="center">A simple CS:GO cheats loader written in AHK.</h3>
-
 <h4 align="center">Only for Windows 8-10</h4>
 
 ## Screenshots
