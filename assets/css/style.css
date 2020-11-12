@@ -1,0 +1,143 @@
+html,body {
+    background: url(bigalaxy.jpg) no-repeat #000;
+    background-size: <auto> <cover> <contain>
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; 
+}
+
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content{text-align:center;}
+
+button {
+	border: none;
+	background-color: #ffffff00;
+	color: #fff;
+	font-size: 20px;
+	border: 2px solid #fff;
+	transition: 0.2s;
+	font-family: monospace;
+	outline: none;
+	height: 45px;
+	width: 150px;
+}
+button:hover {
+	background-color: #9c0000;
+	border: none;
+}
+
+.seller {
+    font-family: monospace;
+    color: rgb(68 56 102);
+
+    cursor: text;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textiboi {
+	text-align: center;
+	color: #fff;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.textiboi:hover {
+	color: #444;
+}
+	
+
+.header {
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.hoverr:hover a 
+{
+	color: #444;
+}
+
+.header:hover {
+    text-align: center;
+    color: #444;
+    font-family: monospace;
+}
+
+.container:hover .seller {
+    color: #444;
+}
+
+.container:hover a {
+    color: #444;
+}
+
+.a {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.header:hover a {
+    text-align: center;
+    color: #444;
+    font-family: monospace;
+}
+
+.icon {
+    color: #fff;
+}
+
+.icon i {
+    font-size: 80px;
+}
+
+.container {
+    text-align: center;
+    margin: 5px 20px;
+
+    float: left;
+}
+
+a {
+    color: #fff;
+}
+
+.container:hover .icon {
+    color: var(--icon-color);
+    font-size: 20px;
+}
+
+.container:hover .seller {
+    color: white;
+}
+
+.container:hover a {
+    color: white;
+}
