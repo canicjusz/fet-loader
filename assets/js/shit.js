@@ -104,7 +104,7 @@ function animationOver() {
         <div class="textiboi">
         <a class="textiboi animated fadeIn" href="https://bit.ly/36KENnu">Donate</a>
         <div class="textiboi">
-        <a class="textiboi animated fadeIn" href="https://fetloader.xyz/contacts.html">CONTACTS</a>`;
+        <a class="textiboi animated fadeIn" href="https://fetloader.xyz/contacts">CONTACTS</a>`;
 
     }, 550);
 
