@@ -101,10 +101,10 @@ function animationOver() {
         <div class="textiboi">
         <a class="textiboi animated fadeIn" href="https://github.com/clangremlini/fet-loader">Source code</a>
         <a class="textiboi animated fadeIn" href="https://github.com/clangremlini/fet-loader/releases/latest">Download latest release</a>
-        <a class="textiboi animated fadeIn" href="https://t.me/ayeloader">TG Channel</a>
-        <a class="textiboi animated fadeIn" href="https://vk.com/ayeloader">VK Group</a>
         <div class="textiboi">
-        <a class="textiboi animated fadeIn" href="https://bit.ly/36KENnu">Donate</a>`;
+        <a class="textiboi animated fadeIn" href="https://bit.ly/36KENnu">Donate</a>
+        <div class="textiboi">
+        <a class="textiboi animated fadeIn" href="https://fetloader.xyz/contacts.html">CONTACTS</a>`;
 
     }, 550);
 
