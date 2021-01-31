@@ -1,116 +1,117 @@
-html,body {
-    background: url(../img/bigalaxy.jpg) no-repeat #000;
-    background-size: <auto> <cover> <contain>
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; 
+html,
+body,
+.ct {
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+	font-size: 15px
 }
 
-
-.seller {
-    font-family: monospace;
-    color: rgb(68 56 102);
-
-    cursor: text;
+body {
+	background: #000
 }
 
-.holder {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+* {
+	user-select: none;
+	text-shadow: 1px 1px 0 #050505
 }
 
-.center {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.chains {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAlSURBVChTYxAREfnPw8PzHxeNogCGkfnEmQDDyDph/IF3A89/ABQxTIGh/maWAAAAAElFTkSuQmCC) repeat;
+	opacity: .7;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	pointer-events: none
 }
 
-.textiboi {
-	text-align: center;
-	color: #444;
-    font-family: monospace;
-    font-size: x-large;
+.ct {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	z-index: 999;
+	position: relative
 }
 
-.textiboi:hover {
-	color: white;
-}
-	
-
-.header {
-    text-align: center;
-    color: #444;
-    font-family: monospace;
-    font-size: xx-large;
+.bg {
+	background: #000
 }
 
-.header a {
-    text-decoration: none;
+.p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 25vw
 }
 
-.hoverr:hover a 
-{
-	color: white;
+canvas#c {
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none
 }
 
-.header:hover {
-    text-align: center;
-    color: white;
-    font-family: monospace;
+.br-1 {
+	padding-right: 16px;
+	border-right: 1px solid #e7e7e7
 }
 
-.container:hover .seller {
-    color: white;
+.br-2 {
+    padding-right: 17px;
+    padding-left: 16px;
+	border-right: 1px solid #e7e7e7
 }
 
-.container:hover a {
-    color: white;
+.pm-1 {
+	margin-left: 16px
 }
 
-.a {
-    text-align: center;
-    color: white;
-    font-family: monospace;
+.brand {
+	font-size: 21px;
+	font-weight: 900
 }
 
-.header:hover a {
-    text-align: center;
-    color: white;
-    font-family: monospace;
+.link {
+	color: #83b2fa!important;
+	text-decoration: none
 }
 
-.icon {
-    color: #444;
+.bg-audio {
+	display: none
 }
 
-.icon i {
-    font-size: 80px;
+.bg-video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	min-width: 140%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	filter: blur(8px)
 }
 
-.container {
-    text-align: center;
-    margin: 5px 20px;
-
-    float: left;
+body {
+	background: #111
 }
 
-a {
-    color: #444;
+.hidden {
+	opacity: 0
 }
 
-.container:hover .icon {
-    color: var(--icon-color);
-    font-size: 20px;
-}
-
-.container:hover .seller {
-    color: white;
-}
-
-.container:hover a {
-    color: white;
+.console-underscore {
+	display: inline-block;
+	position: relative;
+	top: -.14em;
+	left: 10px
 }
